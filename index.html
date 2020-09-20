@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<body>
+<h1>The Do-Good Corporation Contact Lookup Form!</h1>
+
+<p>Please enter the ID number of the person you'd like to look up in the form below!</p>
+
+<form>
+<input name="id" type="text"/>
+<input type="submit"/>
+</form>
+
+<div></div>
+
+<script>
+/*
+ /$$   /$$           /$$ /$$                                                                           
+| $$  | $$          | $$| $$                                                                           
+| $$  | $$  /$$$$$$ | $$| $$  /$$$$$$                                                                  
+| $$$$$$$$ /$$__  $$| $$| $$ /$$__  $$                                                                 
+| $$__  $$| $$$$$$$$| $$| $$| $$  \ $$                                                                 
+| $$  | $$| $$_____/| $$| $$| $$  | $$                                                                 
+| $$  | $$|  $$$$$$$| $$| $$|  $$$$$$/                                                                 
+|__/  |__/ \_______/|__/|__/ \______/                                                                  
+                                                                                                       
+                                                                                                       
+                                                                                                       
+ /$$$$$$$$                                                                                             
+| $$_____/                                                                                             
+| $$     /$$$$$$   /$$$$$$  /$$$$$$/$$$$                                                               
+| $$$$$ /$$__  $$ /$$__  $$| $$_  $$_  $$                                                              
+| $$__/| $$  \__/| $$  \ $$| $$ \ $$ \ $$                                                              
+| $$   | $$      | $$  | $$| $$ | $$ | $$                                                              
+| $$   | $$      |  $$$$$$/| $$ | $$ | $$                                                              
+|__/   |__/       \______/ |__/ |__/ |__/                                                              
+                                                                                                       
+                                                                                                       
+                                                                                                       
+ /$$     /$$                                                                                           
+|  $$   /$$/                                                                                           
+ \  $$ /$$//$$$$$$  /$$   /$$  /$$$$$$                                                                 
+  \  $$$$//$$__  $$| $$  | $$ /$$__  $$                                                                
+   \  $$/| $$  \ $$| $$  | $$| $$  \__/                                                                
+    | $$ | $$  | $$| $$  | $$| $$                                                                      
+    | $$ |  $$$$$$/|  $$$$$$/| $$                                                                      
+    |__/  \______/  \______/ |__/                                                                      
+                                                                                                       
+                                                                                                       
+                                                                                                       
+ /$$$$$$$$        /$$                           /$$                                                    
+| $$_____/       |__/                          | $$                                                    
+| $$     /$$$$$$  /$$  /$$$$$$  /$$$$$$$   /$$$$$$$  /$$$$$$$                                          
+| $$$$$ /$$__  $$| $$ /$$__  $$| $$__  $$ /$$__  $$ /$$_____/                                          
+| $$__/| $$  \__/| $$| $$$$$$$$| $$  \ $$| $$  | $$|  $$$$$$                                           
+| $$   | $$      | $$| $$_____/| $$  | $$| $$  | $$ \____  $$                                          
+| $$   | $$      | $$|  $$$$$$$| $$  | $$|  $$$$$$$ /$$$$$$$/                                          
+|__/   |__/      |__/ \_______/|__/  |__/ \_______/|_______/                                           
+                                                                                                       
+                                                                                                       
+                                                                                                       
+  /$$$$$$    /$$                                                                                       
+ /$$__  $$  | $$                                                                                       
+| $$  \ $$ /$$$$$$                                                                                     
+| $$$$$$$$|_  $$_/                                                                                     
+| $$__  $$  | $$                                                                                       
+| $$  | $$  | $$ /$$                                                                                   
+| $$  | $$  |  $$$$/                                                                                   
+|__/  |__/   \___/                                                                                     
+                                                                                                       
+                                                                                                       
+                                                                                                       
+ /$$$$$$$$ /$$                                                                                         
+|__  $$__/| $$                                                                                         
+   | $$   | $$$$$$$   /$$$$$$                                                                          
+   | $$   | $$__  $$ /$$__  $$                                                                         
+   | $$   | $$  \ $$| $$$$$$$$                                                                         
+   | $$   | $$  | $$| $$_____/                                                                         
+   | $$   | $$  | $$|  $$$$$$$                                                                         
+   |__/   |__/  |__/ \_______/                                                                         
+                                                                                                       
+                                                                                                       
+                                                                                                       
+ /$$$$$$$                     /$$$$$$                            /$$                                   
+| $$__  $$                   /$$__  $$                          | $$                                   
+| $$  \ $$  /$$$$$$         | $$  \__/  /$$$$$$   /$$$$$$   /$$$$$$$                                   
+| $$  | $$ /$$__  $$ /$$$$$$| $$ /$$$$ /$$__  $$ /$$__  $$ /$$__  $$                                   
+| $$  | $$| $$  \ $$|______/| $$|_  $$| $$  \ $$| $$  \ $$| $$  | $$                                   
+| $$  | $$| $$  | $$        | $$  \ $$| $$  | $$| $$  | $$| $$  | $$                                   
+| $$$$$$$/|  $$$$$$/        |  $$$$$$/|  $$$$$$/|  $$$$$$/|  $$$$$$$                                   
+|_______/  \______/          \______/  \______/  \______/  \_______/                                   
+                                                                                                       
+                                                                                                       
+                                                                                                       
+  /$$$$$$                                                               /$$     /$$                    
+ /$$__  $$                                                             | $$    |__/                    
+| $$  \__/  /$$$$$$   /$$$$$$   /$$$$$$   /$$$$$$   /$$$$$$  /$$$$$$  /$$$$$$   /$$  /$$$$$$  /$$$$$$$ 
+| $$       /$$__  $$ /$$__  $$ /$$__  $$ /$$__  $$ /$$__  $$|____  $$|_  $$_/  | $$ /$$__  $$| $$__  $$
+| $$      | $$  \ $$| $$  \__/| $$  \ $$| $$  \ $$| $$  \__/ /$$$$$$$  | $$    | $$| $$  \ $$| $$  \ $$
+| $$    $$| $$  | $$| $$      | $$  | $$| $$  | $$| $$      /$$__  $$  | $$ /$$| $$| $$  | $$| $$  | $$
+|  $$$$$$/|  $$$$$$/| $$      | $$$$$$$/|  $$$$$$/| $$     |  $$$$$$$  |  $$$$/| $$|  $$$$$$/| $$  | $$
+ \______/  \______/ |__/      | $$____/  \______/ |__/      \_______/   \___/  |__/ \______/ |__/  |__/
+                              | $$                                                                     
+                              | $$                                                                     
+                              |__/                                                                     
+*/
+var data = [{"city": "Cardington village, Ohio", "identifier": 400, "name": "Kennedy Ho", "telephone number": "203-298-6061"}, {"city": "Bellevue city, Kentucky", "identifier": 401, "name": "Mia Gill", "telephone number": "419-833-6385"}, {"city": "Wickliffe city, Ohio", "identifier": 402, "name": "Abraham Russell", "telephone number": "503-326-1208"}, {"city": "Assumption city, Illinois", "identifier": 403, "name": "Cameron French", "telephone number": "215-752-1516"}, {"city": "Fairview city, Kentucky", "identifier": 404, "name": "Amy Rosas", "telephone number": "808-798-2727"}, {"city": "Brook Park city, Minnesota", "identifier": 405, "name": "Melissa Young", "telephone number": "304-687-3795"}, {"city": "New Boston city, Illinois", "identifier": 406, "name": "Giovanni Zuniga", "telephone number": "606-425-1203"}, {"city": "Tinley Park village, Illinois", "identifier": 407, "name": "Alexandra Chavez", "telephone number": "410-424-4712"}, {"city": "Oto city, Iowa", "identifier": 408, "name": "Edgar Carroll", "telephone number": "209-540-8173"}, {"city": "Table Grove village, Illinois", "identifier": 409, "name": "Sofia Villarreal", "telephone number": "908-670-2613"}, {"city": "Olivet city, Michigan", "identifier": 410, "name": "Jesse Kim", "telephone number": "812-877-5483"}, {"city": "Berthoud town, Colorado", "identifier": 411, "name": "Daniela Sandoval", "telephone number": "612-753-4984"}, {"city": "Bozeman, Montana", "identifier": 412, "name": "Frank Harris", "telephone number": "513-786-5917"}, {"city": "Pemberton borough, New Jersey", "identifier": 413, "name": "Brady Berger", "telephone number": "717-775-8958"}, {"city": "Houston Acres city, Kentucky", "identifier": 414, "name": "Matthew Waller", "telephone number": "601-246-3243"}, {"city": "Amery city, Wisconsin", "identifier": 415, "name": "Marcus Hoffman", "telephone number": "907-930-0782"}, {"city": "Irwin city, Iowa", "identifier": 416, "name": "Kaitlyn Lucero", "telephone number": "914-485-8085"}, {"city": "Ellisville city, Missouri", "identifier": 417, "name": "Sydney Cuevas", "telephone number": "416-386-4381"}, {"city": "Sellersville borough, Pennsylvania", "identifier": 418, "name": "Jeremiah Ochoa", "telephone number": "605-435-0188"}, {"city": "Yorkville city, Illinois", "identifier": 419, "name": "Aaron Watts", "telephone number": "519-747-7647"}, {"city": "Venice city, Illinois", "identifier": 420, "name": "Luis Hawkins", "telephone number": "814-598-9116"}, {"city": "Valley Hi village, Ohio", "identifier": 421, "name": "Nicole Dyer", "telephone number": "519-578-4796"}, {"city": "Adair town, Oklahoma", "identifier": 422, "name": "Spencer Cantu", "telephone number": "610-691-2953"}, {"city": "Cohocton village, New York", "identifier": 423, "name": "Amelia Drake", "telephone number": "809-735-6959"}, {"city": "Olathe city, Kansas", "identifier": 424, "name": "Mary Vazquez", "telephone number": "601-287-0177"}, {"city": "Cloud Lake town, Florida", "identifier": 425, "name": "Christina Johnston", "telephone number": "507-370-4859"}, {"city": "Framingham city, Massachusetts", "identifier": 426, "name": "Emily Orozco", "telephone number": "412-291-1770"}, {"city": "Rosedale town, Oklahoma", "identifier": 427, "name": "Marissa Arroyo", "telephone number": "708-784-3935"}, {"city": "Corning city, Iowa", "identifier": 428, "name": "Jared Olsen", "telephone number": "914-866-8310"}, {"city": "Stockdale city, Texas", "identifier": 429, "name": "Gracie Hartman", "telephone number": "713-761-6442"}, {"city": "Horseshoe Bay city, Texas", "identifier": 430, "name": "Alexia Beasley", "telephone number": "610-798-4376"}, {"city": "New Berlin village, Illinois", "identifier": 431, "name": "Evelyn Davenport", "telephone number": "207-789-0595"}, {"city": "Bishop city, Texas", "identifier": 432, "name": "Chloe Solis", "telephone number": "807-892-7704"}, {"city": "Biddeford city, Maine", "identifier": 433, "name": "Brody Powell", "telephone number": "619-975-3828"}, {"city": "Elmo city, Missouri", "identifier": 434, "name": "Chelsea Bates", "telephone number": "504-472-2446"}, {"city": "Ankeny city, Iowa", "identifier": 435, "name": "Collin Osborne", "telephone number": "609-932-6895"}, {"city": "Stanford town, Montana", "identifier": 436, "name": "Natalie Chung", "telephone number": "509-932-8299"}, {"city": "Roxton city, Texas", "identifier": 437, "name": "Diana Nava", "telephone number": "718-222-8711"}, {"city": "Slinger village, Wisconsin", "identifier": 438, "name": "Trinity Curry", "telephone number": "519-777-3813"}, {"city": "Aztec city, New Mexico", "identifier": 439, "name": "Eli Bradford", "telephone number": "817-974-3883"}, {"city": "Peabody city, Kansas", "identifier": 440, "name": "Grace Compton", "telephone number": "414-594-8436"}, {"city": "Curtiss village, Wisconsin", "identifier": 441, "name": "Jessica Frost", "telephone number": "710-996-8135"}, {"city": "Coleridge village, Nebraska", "identifier": 442, "name": "Adriana Baker", "telephone number": "908-740-0091"}, {"city": "Conrad city, Iowa", "identifier": 443, "name": "Jade Portillo", "telephone number": "906-698-2867"}, {"city": "Rosemont village, Illinois", "identifier": 444, "name": "Alana Stafford", "telephone number": "612-473-9093"}, {"city": "Chandler city, Minnesota", "identifier": 445, "name": "Jayden Burch", "telephone number": "307-974-0972"}, {"city": "Annetta North town, Texas", "identifier": 446, "name": "Jennifer Walls", "telephone number": "607-969-3656"}, {"city": "Woodworth city, North Dakota", "identifier": 447, "name": "Dylan Brewer", "telephone number": "703-391-1940"}, {"city": "Templeton city, Iowa", "identifier": 448, "name": "Jose Dawson", "telephone number": "415-635-2865"}, {"city": "Lewellen village, Nebraska", "identifier": 449, "name": "Sabrina Santana", "telephone number": "508-547-6650"}, {"city": "Sheffield city, Iowa", "identifier": 450, "name": "Catherine Erickson", "telephone number": "605-435-6031"}, {"city": "Hanson city, Kentucky", "identifier": 451, "name": "Carlos Best", "telephone number": "318-470-9272"}, {"city": "Somersworth city, New Hampshire", "identifier": 452, "name": "Kyle Hanna", "telephone number": "416-699-5909"}, {"city": "Canistota city, South Dakota", "identifier": 453, "name": "Taylor Taylor", "telephone number": "503-896-4358"}, {"city": "Schiller Park village, Illinois", "identifier": 454, "name": "Oliver Donovan", "telephone number": "805-541-1358"}, {"city": "Starke city, Florida", "identifier": 455, "name": "Charles Huynh", "telephone number": "714-788-1178"}, {"city": "McKittrick town, Missouri", "identifier": 456, "name": "Mckenzie Ramirez", "telephone number": "714-329-1500"}, {"city": "Conger city, Minnesota", "identifier": 457, "name": "Chase Palmer", "telephone number": "219-727-3192"}, {"city": "Monona city, Iowa", "identifier": 458, "name": "Sadie Crawford", "telephone number": "708-537-8419"}, {"city": "McVeytown borough, Pennsylvania", "identifier": 459, "name": "Andrea Cordova", "telephone number": "819-636-9597"}, {"city": "South El Monte city, California", "identifier": 460, "name": "Angelica King", "telephone number": "303-762-4200"}, {"city": "Pageland town, South Carolina", "identifier": 461, "name": "Garrett Jones", "telephone number": "412-442-0250"}, {"city": "Pinebluff town, North Carolina", "identifier": 462, "name": "Summer Lynch", "telephone number": "716-740-5825"}, {"city": "Vinita city, Oklahoma", "identifier": 463, "name": "Ruby Lewis", "telephone number": "816-297-5879"}, {"city": "Bear Lake borough, Pennsylvania", "identifier": 464, "name": "Jacqueline Barr", "telephone number": "502-637-8429"}, {"city": "Hope Mills town, North Carolina", "identifier": 465, "name": "Camila Clayton", "telephone number": "716-876-4655"}, {"city": "Yelm city, Washington", "identifier": 466, "name": "Crystal Hess", "telephone number": "802-640-1277"}, {"city": "Iron Ridge village, Wisconsin", "identifier": 467, "name": "Caitlyn Norman", "telephone number": "915-766-8581"}, {"city": "Dell Rapids city, South Dakota", "identifier": 468, "name": "Emmanuel Choi", "telephone number": "314-474-0915"}, {"city": "Sugar Bush Knolls village, Ohio", "identifier": 469, "name": "Bryce Pratt", "telephone number": "305-562-0626"}, {"city": "West Hampton Dunes village, New York", "identifier": 470, "name": "Melanie Esquivel", "telephone number": "412-268-2976"}, {"city": "Cazenovia village, New York", "identifier": 471, "name": "Francisco Peterson", "telephone number": "715-275-6407"}, {"city": "Bechtelsville borough, Pennsylvania", "identifier": 472, "name": "Gianna Nixon", "telephone number": "501-854-3873"}, {"city": "Bloomington city, Indiana", "identifier": 473, "name": "Hayden Hampton", "telephone number": "203-834-8448"}, {"city": "Hardy city, Iowa", "identifier": 474, "name": "Jaden Mccann", "telephone number": "416-751-0816"}, {"city": "Woodruff town, Utah", "identifier": 475, "name": "Madelyn Freeman", "telephone number": "608-330-8947"}, {"city": "Seaside city, California", "identifier": 476, "name": "Reagan Walker", "telephone number": "309-965-1131"}, {"city": "Hammond village, New York", "identifier": 477, "name": "Levi Solomon", "telephone number": "917-872-4432"}, {"city": "Cottage Grove city, Minnesota", "identifier": 478, "name": "Savannah Stone", "telephone number": "503-876-9444"}, {"city": "Kaw City city, Oklahoma", "identifier": 479, "name": "Logan Hutchinson", "telephone number": "409-294-0405"}, {"city": "Merigold town, Mississippi", "identifier": 480, "name": "Skylar Cervantes", "telephone number": "804-695-6403"}, {"city": "Rexburg city, Idaho", "identifier": 481, "name": "Dominic Wagner", "telephone number": "913-862-5669"}, {"city": "Lima village, Illinois", "identifier": 482, "name": "Cristian Hodges", "telephone number": "308-235-9806"}, {"city": "Loganville borough, Pennsylvania", "identifier": 483, "name": "Avery Truong", "telephone number": "407-569-6651"}, {"city": "New Richmond city, Wisconsin", "identifier": 484, "name": "Caden Friedman", "telephone number": "902-638-4346"}, {"city": "Somerset village, Ohio", "identifier": 485, "name": "Makayla Leal", "telephone number": "505-346-0717"}, {"city": "Stockbridge village, Michigan", "identifier": 486, "name": "Arianna Cherry", "telephone number": "319-633-7170"}, {"city": "Coulee City town, Washington", "identifier": 487, "name": "Zachary Juarez", "telephone number": "818-775-0133"}, {"city": "Auburn city, Iowa", "identifier": 488, "name": "Faith Keith", "telephone number": "610-344-2917"}, {"city": "Americus city, Kansas", "identifier": 489, "name": "Landon Rios", "telephone number": "605-659-9634"}, {"city": "Fox River Grove village, Illinois", "identifier": 490, "name": "Sophia Ortiz", "telephone number": "203-859-8690"}, {"city": "Faunsdale town, Alabama", "identifier": 491, "name": "Wesley Vance", "telephone number": "517-344-7820"}, {"city": "Summerset city, South Dakota", "identifier": 492, "name": "Preston Atkins", "telephone number": "819-843-2866"}, {"city": "North East town, Maryland", "identifier": 493, "name": "William Robbins", "telephone number": "814-771-8342"}, {"city": "Glasgow city, Kentucky", "identifier": 494, "name": "Carson Molina", "telephone number": "604-293-1383"}, {"city": "Lexington city, North Carolina", "identifier": 495, "name": "Ariana Rowe", "telephone number": "507-671-0333"}, {"city": "Millerstown borough, Pennsylvania", "identifier": 496, "name": "Hunter Whitaker", "telephone number": "204-944-2107"}, {"city": "Collinsville city, Illinois", "identifier": 497, "name": "Martin Estes", "telephone number": "608-580-1556"}, {"city": "Albany city, Kentucky", "identifier": 498, "name": "Manuel Rodriguez", "telephone number": "809-379-4519"}, {"city": "Arcadia town, Louisiana", "identifier": 499, "name": "Anna Reynolds", "telephone number": "805-496-0027"}]
+document.getElementsByTagName('form')[0].addEventListener('submit', function(e) {
+    e.preventDefault();
+    document.getElementsByTagName('div')[0].innerHTML = '';
+    var id = parseInt(
+        document.getElementsByTagName('input')[0].value
+    );
+    document.getElementsByTagName('input')[0].value = '';
+    if (isNaN(id) || id < 400 || id >= 400 + data.length) {
+        document.getElementsByTagName('div')[0].innerHTML = '<p>Please try again!</p>';
+        return;
+    }
+    document.getElementsByTagName('div')[0].innerHTML = '' +
+    '<p>Identifier: ' + data[id-400]['identifier'] + '</p>' +
+    '<p>Name: ' + data[id-400]['name'] + '</p>' +
+    '<p>Telephone Number: ' + data[id-400]['telephone number'] + '</p>' +
+    '<p>City: ' + data[id-400]['city'] + '</p>';
+});
+</script>
+</body>
+</html>
